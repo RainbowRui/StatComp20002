@@ -1,0 +1,16 @@
+Package: StatComp20002
+Type: Package
+Title: The final project of Statistical Computing
+Version: 1.0
+Date: 2020-12-15
+Author: Hongrui Cai
+Maintainer: Hongrui Cai <rainbow_rui8@163.com>
+Description: The package is prepared for the final project of the course "Statistical Computing".
+License: GPL (>= 2)
+Imports: Rcpp (>= 0.12.16), knitr, rmarkdown, Ball, DAAG, LaplacesDemon, MVN, Pareto, RANN, boot, bootstrap, energy, xtable, microbenchmark
+LinkingTo: Rcpp
+RoxygenNote: 7.1.1
+Encoding: UTF-8
+VignetteBuilder: knitr
+URL: https://github.com/RainbowRui/StatComp20002
+BugReports: https://github.com/RainbowRui/StatComp20002/issues

@@ -1,0 +1,14 @@
+---
+title: "Introduction to StatComp20002"
+author: "Hongrui Cai"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introduction to StatComp20002}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+## Overview
+
+__StatComp20002__ is a simple R package developed to implement two different R functions and all functions in the homeworks of the owner 20002 during the course "Statistical Computing". Two functions are considered, namely, _SampleChain_ (generate Metropolis chain from giving multinomial distribution) and _rcauchyMH_ (generate random samples from Cauchy distribution by MH sampler). For each function, R version is produced.
