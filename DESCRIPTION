@@ -7,7 +7,7 @@ Author: Hongrui Cai
 Maintainer: Hongrui Cai <rainbow_rui8@163.com>
 Description: The package is prepared for the final project of the course "Statistical Computing".
 License: GPL (>= 2)
-Imports: Rcpp (>= 0.12.16), knitr, rmarkdown, Ball, DAAG, LaplacesDemon, MVN, Pareto, RANN, boot, bootstrap, energy, xtable, microbenchmark
+Imports: Rcpp (>= 0.12.16), knitr, rmarkdown, rlang, ps, processx, Ball, DAAG, LaplacesDemon, MVN, Pareto, RANN, boot, bootstrap, energy, xtable, microbenchmark
 LinkingTo: Rcpp
 RoxygenNote: 7.1.1
 Encoding: UTF-8
