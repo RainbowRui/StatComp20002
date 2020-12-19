@@ -7,7 +7,7 @@
 #' @return a random sample of size \code{n}
 #' @examples
 #' \dontrun{
-#' rcauchyMH(100)
+#' rcauchyMH(n=10,theta=0,eta=1)
 #' }
 #' @export
 rcauchyMH <- function(n,theta=0,eta=1){
@@ -34,3 +34,4 @@ rcauchyMH <- function(n,theta=0,eta=1){
   }
   return(x)
 }
+

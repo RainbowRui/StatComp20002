@@ -6,7 +6,7 @@
 #' @return a random sample of size \code{N}
 #' @examples
 #' \dontrun{
-#' rnR <- SampleChain(100,1)
+#' rnR <- SampleChain(N=10, start=1)
 #' plot(rnR,type='l')
 #' }
 #' @export
@@ -37,3 +37,4 @@ SampleChain <- function(N, start){
   }
   return(x)
 }
+

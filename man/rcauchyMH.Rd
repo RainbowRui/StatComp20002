@@ -21,6 +21,6 @@ Generate random samples from Cauchy distribution by MH sampler
 }
 \examples{
 \dontrun{
-rcauchyMH(100)
+rcauchyMH(n=10,theta=0,eta=1)
 }
 }

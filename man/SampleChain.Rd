@@ -19,7 +19,7 @@ Generate Metropolis chain from giving multinomial distribution
 }
 \examples{
 \dontrun{
-rnR <- SampleChain(100,1)
+rnR <- SampleChain(N=10, start=1)
 plot(rnR,type='l')
 }
 }

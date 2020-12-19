@@ -6,10 +6,10 @@
   The final project of the course "Statistical Computing"
 }
 \description{
-  This package provides two functions for benchmarking R and Rcpp, and all functions for my own homeworks.
+  This package provides all functions from my own homeworks and two other functions.
 }
 \details{
-  This package implements two functions and all functions for my homeworks.
+  This package provides all functions from my own homeworks and two functions (\code{rcauchyMH} for generating random samples from Cauchy distribution by MH sampler, \code{SampleChain} for generateing a Metropolis chain for multinomial distribution with random walk proposal distribution and starting value start).
 }
 \author{
 Hongrui Cai
